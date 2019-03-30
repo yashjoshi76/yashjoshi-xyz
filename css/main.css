@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans');
+
+html, body {
+  background-color: #ff7f27;
+  color: white;
+  height: 100%;
+}
+a
+{
+	color:#ff7f27;
+	text-decoration: none;
+	text-transform: bold;
+}
+a:hover 
+{
+	color: black;
+}
+#image
+{
+	margin-bottom: 1px; 
+}
+#title
+{
+	margin-top: 2px;
+	font-family: 'Amatic SC', cursive;
+	color: white;
+
+}
+.header
+{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	margin-top: 30px;
+	flex-direction: column;
+}
+#container
+{
+	border: 1px solid #eee;
+	margin-top: 10px;
+	border-radius: 1.2%;
+	width: 600px;
+     margin: 10px auto 20px;
+	height: auto;
+	background-color: white;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin-bottom: 1px;
+  padding-bottom: 1px;
+}
+#container: before, #container:after {
+    content: " ";
+    display: table; 
+}
+@media screen and (max-width: 700px) {
+  #container {  
+width: auto;
+  }
+}
+.block
+{
+	padding: auto;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	font-size:13px;
+	text-align:  center;
+	padding: 30px 40px 24px;
+}
+
+@media screen and (max-width: 700px) {
+  .block {  
+width: auto;
+  }
+}
+#animal
+{
+	display: flex;
+	text-align: center;
+	align-content: center;
+	justify-content: center;
+	margin-top: 5px;
+	font-size:20px;
+	color: black;
+	font-family: 'Amatic SC', cursive;
+
+}
